@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Kaushik Srinivasapuram</title>
+
+    <meta name="author" content="Kaushik">
+
+    <meta name="description" content="DevelopmentProject">
+
+    <meta name="keywords" content="HTML,CSS,JavaScript,shreshta,devproject">
+
+    
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--script src="https://code.jquery.com/jquery-1.10.2.js"></script-->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+
+    <script src="./app.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96206118-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+
+</head>
+
+<body bgcolor=#d9d9d9>
+
+<ul class="topnav">
+
+    <li><a class="active" href="#home">Home</a></li>
+
+    <li><a href="./about.html">About</a></li>
+
+    <li><a href="./skills.html">Skills</a></li>
+
+    <li><a  href="./contact.html">ContactMe</a></li>
+
+</ul>
+
+
+<div id = "marq">
+
+<marquee width=100% bgcolor=#4CAF50>My Development web page!</marquee>
+
+</div>
+
+<h1>Weather Application</h1>
+
+<!--slider-->
+<div id="flip">Click here to open/close Weather Application </div>
+
+<div id="panel"> <h1>Weather Application</h1>
+
+<input type="text" id="city" placeholder="Enter city">
+
+<input type="text" id="state" placeholder="Enter state two digit">
+
+<button type="button" onclick="displayWeather()">Click here for Weather</button>
+
+<p id="result"></p>
+
+</div>
+
+<div class="imagesContainer">
+
+<img src="./1.jpg" alt="MyPicture" style="width:304px;height:228px;">
+
+</div>
+
+
+<a id="res" href="./KaushikResume.docx" download="Kaushik_resume"> <button id="resume">Download Resume</button></a></body></br></br>
+
+
+
+<div align="center">
+
+<div id="draggable">Drag me into drop box to download resume</div>
+
+
+
+<div  id="droppable">Drop box</div>
+
+</div>
+
+</body>
+
+<footer>Copyright 2017© KaY08 </footer>
+
+
+
+<script type="text/javascript">
+
+
+
+</script>
+
+</html>
